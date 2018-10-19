@@ -11,7 +11,7 @@ pusher.status(function (err, res) {
     if (err) throw err;
 
     console.log(`Status = ${res.status}`);
-    console.log(`Numbers of components correctly workin = ${res['components']['operational'].length}`);
+    console.log(`Numbers of components correctly working = ${res['components']['operational'].length}`);
 
     if (res.status != 'OK') {
         console.log(`Numbers of components not working = ${res['components']['outage'].lenght}`);
