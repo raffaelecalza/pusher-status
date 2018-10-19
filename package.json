@@ -1,0 +1,14 @@
+{
+  "name": "pusher-status-page-client",
+  "version": "1.0.0",
+  "description": "Simple node client for Pusher's Status Page",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Raffaele Calzà <raffaelecalza4@gmail.com>",
+  "license": "ISC",
+  "dependencies": {
+    "request": "^2.88.0"
+  }
+}
