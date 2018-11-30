@@ -1,3 +1,3 @@
-const Pusher = require('./pusher-client');
+const Pusher = require('./lib');
 
 module.exports = new Pusher();
