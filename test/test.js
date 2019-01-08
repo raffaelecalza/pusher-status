@@ -22,6 +22,36 @@ describe('Pusher-status tests', function () {
 		nock('https://status.pusher.com')
 			.get('/index.json')
 			.replyWithFile(200,
+				`${__dirname}/responses/status-page-error.json`);
+	});
+
+	it('should return an error (Status Page Error simulation)', function (done) {
+		pusher.status(function (err) {
+			expect(err).to.not.be.null;
+
+			done();
+		});
+	});
+
+	before(function () {
+		nock('https://status.pusher.com')
+			.get('/index.json')
+			.replyWithFile(500,
+				`${__dirname}/responses/all-operational.json`);
+	});
+
+	it('should return an error (HTTP code != 200)', function (done) {
+		pusher.status(function (err) {
+			expect(err).to.not.be.null;
+
+			done();
+		});
+	});
+
+	before(function () {
+		nock('https://status.pusher.com')
+			.get('/index.json')
+			.replyWithFile(200,
 				`${__dirname}/responses/all-operational.json`);
 	});
 
