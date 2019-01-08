@@ -1,0 +1,62 @@
+{
+	"status": "ERROR",
+	"components": {
+		"operational": [{
+			"status": "operational",
+			"name": "Channels REST API",
+			"position": 1,
+			"description": "The API your servers use to publish messages and query channel state, described here: https://pusher.com/docs/rest_api"
+		}, {
+			"status": "operational",
+			"name": "Channels WebSocket client API",
+			"position": 2,
+			"description": "The API which Pusher Channels end-users connect to, generally for subscribing to events"
+		}, {
+			"status": "operational",
+			"name": "Channels Dashboard",
+			"position": 3,
+			"description": "dashboard.pusher.com: Where you can view statistics and manage your apps."
+		}, {
+			"status": "operational",
+			"name": "Channels Stats Integrations",
+			"position": 4,
+			"description": "Integration of Pusher Channels with Datadog and other 3rd party providers"
+		}, {
+			"status": "operational",
+			"name": "Channels presence channels",
+			"position": 5,
+			"description": null
+		}, {
+			"status": "operational",
+			"name": "Channels Webhooks",
+			"position": 6,
+			"description": null
+		}, {
+			"status": "operational",
+			"name": "Channels Pusher.js CDN",
+			"position": 7,
+			"description": "The CDN backing js.pusher.com, serving the javascript client library to end users."
+		}, {
+			"status": "operational",
+			"name": "Beams",
+			"position": 8,
+			"description": null
+		}, {
+			"status": "operational",
+			"name": "Chatkit",
+			"position": 9,
+			"description": null
+		}],
+		"outage": [{
+			"status": "outage",
+			"name": "Marketing Website",
+			"position": 10,
+			"description": "The website at www.pusher.com"
+		}, {
+			"status": "outage",
+			"name": "Payment API",
+			"position": 11,
+			"description": "The API that handle charging, plan upgrade, downgrade and cancellation"
+		}]
+	}
+}
