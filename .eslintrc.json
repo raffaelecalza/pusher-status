@@ -1,0 +1,48 @@
+{
+    "env": {
+        "es6": true,
+        "node": true,
+        "mocha": true
+    },
+    "parserOptions": {
+        "ecmaVersion": 2016,
+        "sourceType": "module"
+    },
+    "rules": {
+        "indent": [
+            "error",
+            "tab"
+        ],
+        "linebreak-style": [
+            "error",
+            "unix"
+        ],
+        "no-unused-vars": [
+			"error",
+			{
+				"vars": "all",
+				"args": "none"
+			}
+		],
+        "quotes": [
+            "error",
+            "single"
+        ],
+        "no-var": [
+            "error"
+        ],
+        "semi": [
+            "error",
+            "always"
+        ],
+        "handle-callback-err": [
+            "error"
+        ],
+        "for-direction": [
+            "warn"
+        ],
+        "callback-return": [
+            "error"
+        ]
+    }
+}
