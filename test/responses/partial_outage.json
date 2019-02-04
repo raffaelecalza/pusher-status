@@ -1,0 +1,145 @@
+{
+	"page": {
+		"id": "p6t5x7tdq8yq",
+		"name": "Pusher",
+		"url": "https://status.pusher.com"
+	},
+	"status": {
+		"indicator": "minor",
+		"description": "Partially Degraded Service"
+	},
+	"components": [
+		{
+			"status": "operational",
+			"name": "Channels REST API",
+			"created_at": "2014-11-05T20:39:50.772Z",
+			"updated_at": "2018-05-31T08:07:04.340Z",
+			"position": 1,
+			"description": "The API your servers use to publish messages and query channel state, described here: https://pusher.com/docs/rest_api",
+			"showcase": false,
+			"id": "0t8v1r57gpx0",
+			"page_id": "p6t5x7tdq8yq",
+			"group_id": null
+		},
+		{
+			"status": "operational",
+			"name": "Channels WebSocket client API",
+			"created_at": "2014-11-05T20:39:39.917Z",
+			"updated_at": "2018-05-31T08:07:05.725Z",
+			"position": 2,
+			"description": "The API which Pusher Channels end-users connect to, generally for subscribing to events",
+			"showcase": false,
+			"id": "hccyk23slcth",
+			"page_id": "p6t5x7tdq8yq",
+			"group_id": null
+		},
+		{
+			"status": "degraded_performance",
+			"name": "Channels Dashboard",
+			"created_at": "2014-11-05T20:39:11.452Z",
+			"updated_at": "2019-02-04T15:39:24.736Z",
+			"position": 3,
+			"description": "dashboard.pusher.com: Where you can view statistics and manage your apps.",
+			"showcase": false,
+			"id": "3qr0gw9st6ml",
+			"page_id": "p6t5x7tdq8yq",
+			"group_id": null
+		},
+		{
+			"status": "outage",
+			"name": "Channels Stats Integrations",
+			"created_at": "2017-02-17T17:51:21.056Z",
+			"updated_at": "2018-11-09T22:37:19.956Z",
+			"position": 4,
+			"description": "Integration of Pusher Channels with Datadog and other 3rd party providers",
+			"showcase": false,
+			"id": "mzffs7y5sbz4",
+			"page_id": "p6t5x7tdq8yq",
+			"group_id": null
+		},
+		{
+			"status": "operational",
+			"name": "Channels presence channels",
+			"created_at": "2014-11-05T20:37:13.343Z",
+			"updated_at": "2018-05-31T08:07:07.134Z",
+			"position": 5,
+			"description": null,
+			"showcase": false,
+			"id": "dr7sz6vk1m06",
+			"page_id": "p6t5x7tdq8yq",
+			"group_id": null
+		},
+		{
+			"status": "operational",
+			"name": "Channels Webhooks",
+			"created_at": "2014-11-05T20:31:18.236Z",
+			"updated_at": "2018-05-31T08:07:07.837Z",
+			"position": 6,
+			"description": null,
+			"showcase": false,
+			"id": "5qzw3czstmvr",
+			"page_id": "p6t5x7tdq8yq",
+			"group_id": null
+		},
+		{
+			"status": "operational",
+			"name": "Channels Pusher.js CDN",
+			"created_at": "2014-11-05T20:31:18.222Z",
+			"updated_at": "2018-10-02T11:28:04.444Z",
+			"position": 7,
+			"description": "The CDN backing js.pusher.com, serving the javascript client library to end users.",
+			"showcase": false,
+			"id": "r20cx2wl9rtq",
+			"page_id": "p6t5x7tdq8yq",
+			"group_id": null
+		},
+		{
+			"status": "operational",
+			"name": "Beams",
+			"created_at": "2016-10-01T08:21:15.857Z",
+			"updated_at": "2019-01-10T12:39:06.419Z",
+			"position": 8,
+			"description": null,
+			"showcase": false,
+			"id": "sc557x8yk7my",
+			"page_id": "p6t5x7tdq8yq",
+			"group_id": null
+		},
+		{
+			"status": "operational",
+			"name": "Chatkit",
+			"created_at": "2018-10-25T10:27:00.709Z",
+			"updated_at": "2018-11-13T10:26:23.009Z",
+			"position": 9,
+			"description": null,
+			"showcase": false,
+			"id": "z44r1j21b4v1",
+			"page_id": "p6t5x7tdq8yq",
+			"group_id": null
+		},
+		{
+			"status": "operational",
+			"name": "Marketing Website",
+			"created_at": "2014-11-05T20:40:31.897Z",
+			"updated_at": "2018-10-25T10:27:14.449Z",
+			"position": 10,
+			"description": "The website at www.pusher.com",
+			"showcase": false,
+			"id": "5hr6yzgrpwj1",
+			"page_id": "p6t5x7tdq8yq",
+			"group_id": null
+		},
+		{
+			"status": "operational",
+			"name": "Payment API",
+			"created_at": "2014-11-15T20:16:40.536Z",
+			"updated_at": "2018-10-25T10:27:14.459Z",
+			"position": 11,
+			"description": "The API that handle charging, plan upgrade, downgrade and cancellation",
+			"showcase": false,
+			"id": "z8xch2rlmrdj",
+			"page_id": "p6t5x7tdq8yq",
+			"group_id": null
+		}
+	]
+}

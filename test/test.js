@@ -83,4 +83,22 @@ describe('Pusher-status tests', function () {
 			done();
 		});
 	});
+
+	before(function () {
+		nock('https://status.pusher.com')
+			.get('/index.json')
+			.replyWithFile(200,
+				`${__dirname}/responses/partial_outage.json`);
+	});
+
+	it('should return an object with some component not working (partial_outage case)', function (done) {
+		pusher.status(function (err, data) {
+			expect(err).to.be.null;
+			expect(data['status']).to.equal('ERROR');
+			expect(data['components']['operational']).to.have.lengthOf(9);
+			expect(data['components']['outage']).to.have.lengthOf(2);
+
+			done();
+		});
+	});
 });
