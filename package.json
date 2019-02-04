@@ -1,6 +1,6 @@
 {
   "name": "pusher-status",
-  "version": "1.0.4",
+  "version": "1.0.5",
   "description": "Simple node client for Pusher's Status Page",
   "main": "index.js",
   "scripts": {
