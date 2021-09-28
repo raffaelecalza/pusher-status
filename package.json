@@ -4,16 +4,22 @@
   "description": "Simple node client for Pusher's Status Page",
   "main": "index.js",
   "scripts": {
-    "test": "mocha --opts mocha.opts"
+    "test": "standard && mocha --exit"
   },
   "author": "Raffaele Calzà <raffaelecalza4@gmail.com>",
   "license": "MIT",
   "dependencies": {
-    "phin": "^3.2.4"
+    "phin": "^3.6.0"
+  },
+  "standard": {
+    "ignore": [
+      "test/*"
+    ]
   },
   "devDependencies": {
-    "chai": "^4.2.0",
-    "mocha": "^5.2.0",
-    "nock": "^10.0.2"
+    "chai": "^4.3.4",
+    "mocha": "^9.1.2",
+    "nock": "^13.1.3",
+    "standard": "^16.0.3"
   }
 }
