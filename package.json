@@ -13,7 +13,7 @@
   "author": "Raffaele Calzà <raffaelecalza4@gmail.com>",
   "license": "MIT",
   "dependencies": {
-    "phin": "^3.6.0"
+    "phin": "^3.6.1"
   },
   "standard": {
     "ignore": [
@@ -21,9 +21,9 @@
     ]
   },
   "devDependencies": {
-    "chai": "^4.3.4",
-    "mocha": "^9.1.2",
-    "nock": "^13.1.3",
-    "standard": "^16.0.3"
+    "chai": "^4.3.6",
+    "mocha": "^9.2.0",
+    "nock": "^13.2.2",
+    "standard": "^16.0.4"
   }
 }
